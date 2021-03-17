@@ -1,0 +1,125 @@
+* {
+
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1200px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    background-color: white;
+
+  }
+  
+  h1 {
+      align-items: right;
+  }
+  .main-body{
+      padding-top: 50px;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .photo-grid-item {
+
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border: solid black 3px;
+    margin-right: 15px;
+  }
+
+  .first-item {
+      order:1;
+  }
+
+  .last-item {
+      order: -1;
+  }
+  .container {
+      display:flex;
+      justify-content: center;
+
+  }
+
+  .profile-picture {
+      display: flex;
+      align-items: center;
+  }
+  .profile-description {
+      padding-left: 25px;
+      display:flex;
+      justify-content: center;
+  }
+
+  .reviews {
+      background-color: grey;
+      border: 5px black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: slategray;
+    color: black;
+    height: 150px;
+    width: fit-content;
+    flex: 1;
+    margin-bottom: 25px;
+    padding-left: 75px;
+    padding-top: 25px;
+    position:fixed;
+    width: 100%;
+    bottom:0;
+  }
+  a:visited {
+      color:blue;
+  }
+
+  a:link {
+      color: blue;
+  }
+
+  h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  ol {
+    padding-left: 45%;
+    padding-right: 40%;
+    justify-content: center;
+
+  }
+
+  p{
+    padding-left: 25px;
+  }
+  .descriptions {
+    padding-left: 25px;
+    display:flex;
+    justify-content: center;
+  }
+
+  .link {
+    font-style: italic;
+    padding-left: 75px;
+  }
